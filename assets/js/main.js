@@ -5,5 +5,9 @@ const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
 fetch(url)
     .then((response) => response.json())
-    .then((jsonBody) => console.log(jsonBody))
+    .then((jsonBody) => jasonBody.results)
+    .then((jsonBody) => {
+        debugger
+        console.log(pokemins.list)
+    })
     .catch((error) => console.error(error))
