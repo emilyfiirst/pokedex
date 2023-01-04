@@ -18,7 +18,7 @@ function convertPokemonToLi(pokemon){
     </li> `  
 }
 
-const pokemonList = document.getElementById('pokemonOl');
+const pokemonList = document.getElementById('pokemonList');
 
 
 fetch(url)
