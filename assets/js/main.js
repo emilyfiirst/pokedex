@@ -15,11 +15,10 @@ function convertPokemonToLi(pokemon){
                 </ol>
                 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="${pokemon.name}">
             </div>
-    </li>`  
+    </li>` 
 }
 
 const pokemonList = document.getElementById('pokemonList');
-
 
 fetch(url)
     .then((response) => response.json())
