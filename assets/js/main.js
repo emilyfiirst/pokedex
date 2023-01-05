@@ -5,7 +5,8 @@ const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
 function convertPokemonToLi(pokemon){
     return 
-    `<li class="pokemon">
+    `
+    <li class="pokemon">
         <span class="number">#001</span>
         <span class="name">${pokemon.name}</span>
         <div class="detail">
@@ -27,6 +28,7 @@ fetch(url)
     .then((pokemons) => {
         for(let i = 0; i < pokemons.length; i++){
             const pokemon = pokemons[i];
+            console.log(convertPokemonToLi(pokemon));
             pokemonList.innerHTML += convertPokemonToLi(pokemon);
         }
     })
