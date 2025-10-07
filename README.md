@@ -1,32 +1,32 @@
 # 🧩 Pokedex Web
 
-Uma Pokédex interativa feita com **HTML**, **CSS** e **JavaScript (PokeAPI)**.  
-O projeto consome dados da [PokeAPI](https://pokeapi.co/) para listar Pokémons com informações de tipo, nome, número e imagem.
+An interactive Pokédex built with **HTML**, **CSS**, and **JavaScript (PokeAPI)**.  
+The project uses data from the [PokeAPI](https://pokeapi.co/) to list Pokémon with their type, name, number, and image.
 
 ---
 
-## 🧠 Descrição
+## 🧠 Description
 
-Este projeto simula uma Pokédex, permitindo visualizar Pokémons de forma paginada.  
-Os dados são carregados dinamicamente pela API, e o botão **“Load more..”** permite exibir mais resultados até o limite definido.
+This project simulates a Pokédex, allowing users to view Pokémon in a paginated list.  
+Data is dynamically loaded from the API, and the **“Load more..”** button displays additional results up to a defined limit.
 
 ---
 
-## 🧩 Estrutura do Projeto
+## 🧩 Project Structure
 
 ```
 📁 pokedex
 │
-├── index.html              # Estrutura principal da página
+├── index.html              # Main page structure
 │
 ├── assets/
 │   ├── css/
-│   │   ├── global.css      # Estilos gerais
-│   │   └── pokedex.css     # Estilos específicos da listagem
+│   │   ├── global.css      # Global styles
+│   │   └── pokedex.css     # Specific styles for the list
 │   ├── js/
-│   │   ├── pokemon-model.js  # Classe Pokémon
-│   │   ├── poke-api.js       # Comunicação com a PokeAPI
-│   │   └── main.js           # Renderização e lógica principal
+│   │   ├── pokemon-model.js  # Pokémon class
+│   │   ├── poke-api.js       # API communication logic
+│   │   └── main.js           # Rendering and main logic
 │   └── images/
 │       └── favicon.ico
 │
@@ -35,44 +35,47 @@ Os dados são carregados dinamicamente pela API, e o botão **“Load more..”*
 
 ---
 
-## 🚀 Funcionalidades
-
-- 🔍 Lista Pokémons com **nome, número, tipos e imagem**.  
-- ⚡ Usa **PokeAPI** para carregar dados reais.  
-- 📱 Layout responsivo (1 a 4 colunas conforme a tela).  
-- ➕ Botão **“Load more..”** para carregar mais resultados (até 151 Pokémons).  
 
 ---
 
-## 🎨 Estilos (CSS)
+## 🚀 Features
 
-O layout utiliza **cores temáticas por tipo de Pokémon**, por exemplo:
-- 🔥 `fire` → Laranja  
-- 🌱 `grass` → Verde  
-- 💧 `water` → Azul  
-- ⚡ `electric` → Amarelo  
-
-Os cartões são organizados com **CSS Grid**, e o design é totalmente **responsivo**.
+- 🔍 Lists Pokémon with **name, number, types, and image**.  
+- ⚡ Uses **PokeAPI** to load real data.  
+- 📱 Responsive layout (1 to 4 columns depending on screen size).  
+- ➕ **“Load more..”** button to display more Pokémon (up to 151).  
 
 ---
 
-## ⚙️ Como Executar
+## 🎨 Styling (CSS)
 
-1. Baixe ou clone o repositório:
+The layout uses **thematic colors based on Pokémon types**, for example:
+- 🔥 `fire` → Orange  
+- 🌱 `grass` → Green  
+- 💧 `water` → Blue  
+- ⚡ `electric` → Yellow  
+
+Cards are organized using **CSS Grid**, and the design is fully **responsive**.
+
+---
+
+## ⚙️ How to Run
+
+1. Download or clone the repository:
    ```bash
    git clone https://github.com/emilyfiirst/pokedex.git
    ```
 
-2. Abra o arquivo `index.html` em qualquer navegador moderno.
+2. Open the `index.html` file in any modern browser.
 
-3. Clique em **Load more..** para visualizar mais Pokémons.
+3. Click `Load more..` to view more Pokémon.
 
 ---
 
-## 🧩 Tecnologias Utilizadas
+## 🧩 Technologies Used
 
 - **HTML5**
-- **CSS3 (Grid, Responsividade)**
+- **CSS3 (Grid, Responsiveness)**
 - **JavaScript (ES6)**
 - **PokeAPI**
 
@@ -80,12 +83,12 @@ Os cartões são organizados com **CSS Grid**, e o design é totalmente **respon
 
 ## 🧠 Lógica JavaScript
 
-- `pokemon-model.js` → Define a classe `Pokemon` com os atributos principais.  
-- `poke-api.js` → Responsável por buscar e converter os dados da API.  
-- `main.js` → Controla a renderização e paginação dos Pokémons na interface.  
+- `pokemon-model.js` → Defines the `Pokemon` class with main attributes.  
+- `poke-api.js` → Handles fetching and converting API data.
+- `main.js` → Controls rendering and Pokémon pagination in the interface.  
 
 ---
 
-## 🧑‍💻 Autor
+## 🧑‍💻 Author
 
-Desenvolvido como projeto educacional para prática de **consumo de APIs** e **renderização dinâmica com JavaScript**.
+Developed as an educational project to practice **API consumption** and **dynamic rendering with JavaScript**.
